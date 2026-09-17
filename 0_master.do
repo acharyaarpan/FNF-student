@@ -37,7 +37,7 @@ cap clear frames
 	}
 	
 	if "`c(username)'" == "HP" {
-		global workspace "C:/Users/HP/OneDrive/Fnf"
+		global workspace "C:\Users\HP\OneDrive\Fnf\FNF-student"
 	}
 	
 	if "`c(username)'" == "pprak" {
