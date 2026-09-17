@@ -36,6 +36,10 @@ cap clear frames
 		global workspace "C:/Users/ACER/OneDrive - Samriddhi Foundation/Projects/FNF"
 	}
 	
+	if "`c(username)'" == "pprak" {
+			global workspace "C:/Users/pprak/OneDrive/Desktop/FNF-student"
+	}
+	
 		**# Sub folder macros (global)
 	global data 			"$workspace/1_data"
 		gl data_raw 		"$data/1_raw"
