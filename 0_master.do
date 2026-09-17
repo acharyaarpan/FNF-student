@@ -111,7 +111,7 @@ cd "$workspace"
 
 *Work1: Cleaning for consumption
 
-doedit "$prep/1_cleaning.do"
+doedit "$prep/cleaning.do"
 
 *------------------------------------------------------------------------------*		
 **#							End of do file
