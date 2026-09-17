@@ -60,6 +60,10 @@ cap log close
 **#Load the dataset
 
 import excel "$data_raw\raw-data-student.xlsx", sheet("Youth and Aspirations Percep...") firstrow
+	
+
+
+log close
 
 
 
