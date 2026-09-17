@@ -35,6 +35,7 @@ cap clear frames
 	if "`c(username)'" == "ACER" {
 		global workspace "C:/Users/ACER/OneDrive - Samriddhi Foundation/Projects/FNF"
 	}
+	
 	if "`c(username)'" == "HP" {
 		global workspace "C:\Users\HP\OneDrive\Fnf"
 	}
