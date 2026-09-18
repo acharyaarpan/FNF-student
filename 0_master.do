@@ -118,7 +118,8 @@ cd "$workspace"
 
 
 // doedit "$prep/cleaning1-53.do" 
-do "$prep/cleaning.do"
+doedit "$prep/arpan.do"
+doedit "$prep/prakash.do"
 // doedit "$prep/cleaning105-156.do"
 
 
