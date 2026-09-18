@@ -44,6 +44,11 @@ cap clear frames
 			global workspace "C:/Users/pprak/OneDrive/Desktop/FNF-student"
 	}
 	
+	* Allow batch execution from the project root under other Windows accounts.
+	if "$workspace" == "" {
+		capture confirm file "0_master.do"
+		if !_rc global workspace "`c(pwd)'"
+	}
 		**# Sub folder macros (global)
 	global data 			"$workspace/1_data"
 		gl data_raw 		"$data/1_raw"
@@ -72,7 +77,7 @@ cap clear frames
 	adopath + "${analysis}/ado"
 	
 	** List all required packages below as local. !! No SPACES in package name !!
-	local packages "estout texify"
+	local packages ""
 	
 	foreach package in `packages' {
 		cap which `package'
@@ -113,7 +118,7 @@ cd "$workspace"
 
 
 // doedit "$prep/cleaning1-53.do" 
-doedit "$prep/cleaning54-104.do"
+do "$prep/cleaning.do"
 // doedit "$prep/cleaning105-156.do"
 
 

@@ -63,8 +63,17 @@ import excel "$data_raw\raw-data-student.xlsx", sheet("Youth and Aspirations Per
 
 
 
-log close
+label define yesno 1 "yes" 2 "no"
 
+foreach var in varlist {
+	label values `var' yesno
+	tab `var'
+}
 
+label var [varname] [varlabel]
+
+rename ///
+() ///
+()
 
 

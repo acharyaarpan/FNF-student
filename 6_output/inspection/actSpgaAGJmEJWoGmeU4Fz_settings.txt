@@ -1,0 +1,2 @@
+('style', 'default_language')
+('theme-grid no-text-transform', 'English (en)')

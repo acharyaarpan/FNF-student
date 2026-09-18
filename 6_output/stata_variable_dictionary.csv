@@ -1,0 +1,272 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,source_row,int,1,%12.0g,,"Row in original Excel workbook, including header"
+2,submission_id,long,1,%10.0g,,Submission ID (Kobo)
+3,submission_uuid,str36,0,%36s,,Submission UUID (Kobo)
+4,interview_date,int,1,%tdCCYY-NN-DD,,Interview date (local calendar date)
+5,interview_time,long,1,%tcHH:MM:SS,,"Interview local time of day (+05:45), milliseconds"
+6,interviewer,byte,1,%33.0g,vl_xq9zw28,Interviewer
+7,province,byte,1,%33.0g,vl_ar01j09,Province (explicit codes follow supplied choice-list order)
+8,local_government,str61,0,%61s,,Local government: normalized case and whitespace only
+9,ward,byte,1,%10.0g,,Ward number
+10,age,byte,1,%10.0g,,1.1 Age in completed years
+11,gender,byte,1,%33.0g,vl_gender,1.2 Gender
+12,education,byte,1,%33.0g,vl_education,1.3 Current education level and year
+13,consent_agree,byte,1,%33.0g,vl_yes_no,Consent to participate
+14,consent_agree_raw,str1,0,%9s,,Original code: consent_agree
+15,screener,byte,1,%33.0g,vl_screener,Eligible: age 18-35 and student at sampled institution
+16,screener_raw,str1,0,%9s,,Original code: screener
+17,interview_date_raw,str9,0,%9s,,Interview date
+18,interview_time_raw,str18,0,%18s,,Interview time
+19,interviewer_raw,str7,0,%9s,,Original code: interviewer
+20,province_raw,str12,0,%12s,,Original code: province
+21,gender_raw,str1,0,%9s,,Original code: gender
+22,gender_other,str1,0,%9s,,"1.2 Gender: other, specified"
+23,education_raw,str1,0,%9s,,Original code: education
+24,edu_school,byte,1,%33.0g,vl_private_public,1.3.1 SLC/SEE school: private or public
+25,edu_school_raw,str1,0,%9s,,Original code: edu_school
+26,edu_plus2,byte,1,%33.0g,vl_private_public,1.3.2 Plus-two institution: private or public
+27,edu_plus2_raw,str1,0,%9s,,Original code: edu_plus2
+28,edu_bachelors,byte,1,%33.0g,vl_private_public,1.3.3 Bachelor's institution: private or public
+29,edu_bachelors_raw,str1,0,%9s,,Original code: edu_bachelors
+30,edu_masters,byte,1,%33.0g,vl_private_public,1.3.4 Master's or higher institution: private or public
+31,edu_masters_raw,str1,0,%9s,,Original code: edu_masters
+32,ethnicity,byte,1,%33.0g,vl_cp3qw00,1.4 Caste/ethnicity
+33,ethnicity_raw,str1,0,%9s,,Original code: ethnicity
+34,religious_belief,byte,1,%33.0g,vl_yes_no_unsure,1.5 Considers self a person with religious beliefs
+35,religious_belief_raw,str1,0,%9s,,Original code: religious_belief
+36,religion,byte,1,%33.0g,vl_hn9bp27,1.6 Religion
+37,religion_raw,str17,0,%17s,,Original code: religion
+38,marital_status,byte,1,%33.0g,vl_marital,1.7 Marital status
+39,marital_status_raw,str1,0,%9s,,Original code: marital_status
+40,life_place,byte,1,%33.0g,vl_urban_rural,1.8 Urban/rural location of most of life
+41,life_place_raw,str1,0,%9s,,Original code: life_place
+42,family_abroad,byte,1,%33.0g,vl_yes_no_pns,1.9 Close family member has lived or lives abroad
+43,family_abroad_raw,str1,0,%9s,,Original code: family_abroad
+44,family_returned,byte,1,%33.0g,vl_yes_no_dk_pns,1.9.1 Family member abroad returned permanently
+45,family_returned_raw,str1,0,%9s,,Original code: family_returned
+46,migration_plan,byte,1,%33.0g,vl_migration_plan,1.10 Plans to go abroad or stay in Nepal
+47,migration_plan_raw,str1,0,%9s,,Original code: migration_plan
+48,abroad_purpose,byte,1,%33.0g,vl_abroad_purpose,1.10.1a Purpose of going abroad
+49,abroad_purpose_raw,str1,0,%9s,,Original code: abroad_purpose
+50,nepal_plan,byte,1,%33.0g,vl_nepal_plan,1.10.1b Plans while staying in Nepal
+51,nepal_plan_raw,str1,0,%9s,,Original code: nepal_plan
+52,q2_1,byte,1,%33.0g,vl_agree5,2.1 Agreement: politics is central to living in Nepal
+53,q2_1_raw,str1,0,%9s,,Original code: q2_1
+54,q2_2,byte,1,%33.0g,vl_newsfreq,2.2 Frequency of following political news
+55,q2_2_raw,str1,0,%9s,,Original code: q2_2
+56,q2_3,byte,1,%33.0g,vl_yes_no_pns,2.3 Active involvement in politics/political organizations
+57,q2_3_raw,str1,0,%9s,,Original code: q2_3
+58,q2_4,byte,1,%39.0g,vl_vote,2.4 Voted in 2022 federal election
+59,q2_4_raw,str1,0,%9s,,Original code: q2_4
+60,q2_4_1,byte,1,%42.0g,vl_nonvote_reason,2.4.1 Reason for not voting: federal
+61,q2_4_1_raw,str21,0,%21s,,Original code: q2_4_1
+62,q2_4_1_other,str79,0,%79s,,2.4.1 Other reason for not voting: federal
+63,q2_5,byte,1,%39.0g,vl_vote,2.5 Voted in 2022 provincial election
+64,q2_5_raw,str1,0,%9s,,Original code: q2_5
+65,q2_5_1,byte,1,%42.0g,vl_nonvote_reason,2.5.1 Reason for not voting: provincial
+66,q2_5_1_raw,str21,0,%21s,,Original code: q2_5_1
+67,q2_5_1_other,str79,0,%79s,,2.5.1 Other reason for not voting: provincial
+68,q2_6,byte,1,%39.0g,vl_vote,2.6 Voted in 2022 local election
+69,q2_6_raw,str3,0,%9s,,Original code: q2_6
+70,q2_6_1,byte,1,%42.0g,vl_nonvote_reason,2.6.1 Reason for not voting: local
+71,q2_6_1_raw,str21,0,%21s,,Original code: q2_6_1
+72,q2_6_1_other,str79,0,%79s,,2.6.1 Other reason for not voting: local
+73,q2_7,byte,1,%33.0g,vl_future_vote,2.7 Likelihood of voting in 2027 local elections
+74,q2_7_raw,str1,0,%9s,,Original code: q2_7
+75,q2_7_1,byte,1,%41.0g,vl_unlikely_reason,2.7.1 Reason unlikely to vote in 2027 local elections
+76,q2_7_1_raw,str1,0,%9s,,Original code: q2_7_1
+77,q2_8_1,byte,1,%33.0g,vl_civic_yes_no,2.8.1 Past 12 months: Attended campaign/rally
+78,q2_8_1_raw,str1,0,%9s,,Original code: q2_8_1
+79,q2_8_2,byte,1,%33.0g,vl_civic_yes_no,2.8.2 Past 12 months: Volunteered for party/campaign
+80,q2_8_2_raw,str1,0,%9s,,Original code: q2_8_2
+81,q2_8_3,byte,1,%33.0g,vl_civic_yes_no,2.8.3 Past 12 months: Joined protest/demonstration
+82,q2_8_3_raw,str1,0,%9s,,Original code: q2_8_3
+83,q2_8_4,byte,1,%33.0g,vl_civic_yes_no,2.8.4 Past 12 months: Joined public meeting/discussion
+84,q2_8_4_raw,str1,0,%9s,,Original code: q2_8_4
+85,q2_8_5,byte,1,%33.0g,vl_civic_yes_no,2.8.5 Past 12 months: Contacted elected representative
+86,q2_8_5_raw,str1,0,%9s,,Original code: q2_8_5
+87,q2_8_6,byte,1,%33.0g,vl_civic_yes_no,2.8.6 Past 12 months: Joined ward user committee
+88,q2_8_6_raw,str1,0,%9s,,Original code: q2_8_6
+89,q2_9,byte,1,%33.0g,vl_confidence,2.9 Confidence in influencing government decisions
+90,q2_9_raw,str1,0,%9s,,Original code: q2_9
+91,q3_1_1,byte,1,%33.0g,vl_agree5,Nepal instability cause: Government changes/party conflict
+92,q3_1_1_raw,str3,0,%9s,,Original code: q3_1_1
+93,q3_1_2,byte,1,%33.0g,vl_agree5,Nepal instability cause: Policy formulation failure
+94,q3_1_2_raw,str1,0,%9s,,Original code: q3_1_2
+95,q3_1_2_001,byte,1,%33.0g,vl_vx7xv18,Nepal instability cause: Policy implementation failure
+96,q3_1_2_001_raw,str3,0,%9s,,Original code: q3_1_2_001
+97,q3_1_3,byte,1,%33.0g,vl_agree5,Nepal instability cause: Corruption
+98,q3_1_3_raw,str1,0,%9s,,Original code: q3_1_3
+99,q3_1_3_001,byte,1,%33.0g,vl_fx1wd71,Nepal instability cause: Lack of accountability
+100,q3_1_3_001_raw,str3,0,%9s,,Original code: q3_1_3_001
+101,q3_1_4,byte,1,%33.0g,vl_agree5,Nepal instability cause: Protests/violence/civic unrest
+102,q3_1_4_raw,str3,0,%9s,,Original code: q3_1_4
+103,q3_1_5,byte,1,%33.0g,vl_agree5,Nepal instability cause: Transfers of government officials
+104,q3_1_5_raw,str1,0,%9s,,Original code: q3_1_5
+105,q3_1_6,byte,1,%33.0g,vl_agree5,Nepal instability cause: Conflict between government tiers
+106,q3_1_6_raw,str1,0,%9s,,Original code: q3_1_6
+107,q3_1_7,byte,1,%33.0g,vl_agree5,Nepal instability cause: Foreign/external influence
+108,q3_1_7_raw,str3,0,%9s,,Original code: q3_1_7
+109,q3_2,byte,1,%33.0g,vl_stability,3.2 Political stability of Nepal today
+110,q3_2_raw,str3,0,%9s,,Original code: q3_2
+111,q3_3,byte,1,%33.0g,vl_comparison,3.3 Nepal stability compared with one year ago
+112,q3_3_raw,str1,0,%9s,,Original code: q3_3
+113,q3_4,byte,1,%33.0g,vl_comparison,3.4 Nepal stability compared with five years ago
+114,q3_4_raw,str1,0,%9s,,Original code: q3_4
+115,q3_5,byte,1,%33.0g,vl_comparison,3.5 Expected Nepal stability in five years
+116,q3_5_raw,str3,0,%9s,,Original code: q3_5
+117,q3_6,byte,1,%33.0g,vl_likelihood,3.6 Likelihood government changes within one year
+118,q3_6_raw,str1,0,%9s,,Original code: q3_6
+119,q3_7,byte,1,%33.0g,vl_likelihood,3.7 Likelihood government changes before next federal election
+120,q3_7_raw,str3,0,%9s,,Original code: q3_7
+121,q3_8,byte,1,%33.0g,vl_likelihood,3.8 Likelihood of major political event within five years
+122,q3_8_raw,str1,0,%9s,,Original code: q3_8
+123,q3_9,byte,1,%33.0g,vl_likelihood,3.9 Likelihood of new political force within five years
+124,q3_9_raw,str1,0,%9s,,Original code: q3_9
+125,q3_10_11,byte,1,%33.0g,vl_agree5,Nepal stability risk: Corruption
+126,q3_10_11_raw,str3,0,%9s,,Original code: q3_10_11
+127,q3_10_11_001,byte,1,%33.0g,vl_sn7om92,Nepal stability risk: Lack of accountability
+128,q3_10_11_001_raw,str9,0,%9s,,Original code: q3_10_11_001
+129,q3_10_12,byte,1,%33.0g,vl_agree5,Nepal stability risk: Unemployment/economic opportunities
+130,q3_10_12_raw,str1,0,%9s,,Original code: q3_10_12
+131,q3_10_13,byte,1,%33.0g,vl_agree5,Nepal stability risk: Political exclusion
+132,q3_10_13_raw,str3,0,%9s,,Original code: q3_10_13
+133,q3_10_14,byte,1,%33.0g,vl_agree5,Nepal stability risk: Rising cost of living
+134,q3_10_14_raw,str1,0,%9s,,Original code: q3_10_14
+135,q3_10_15,byte,1,%33.0g,vl_agree5,Nepal stability risk: Social media misinformation
+136,q3_10_15_raw,str1,0,%9s,,Original code: q3_10_15
+137,q3_10_16,byte,1,%33.0g,vl_agree5,Nepal stability risk: Foreign/external influence
+138,q3_10_16_raw,str3,0,%9s,,Original code: q3_10_16
+139,q3_10_17,byte,1,%33.0g,vl_agree5,Nepal stability risk: Ethnic/religious conflict
+140,q3_10_17_raw,str1,0,%9s,,Original code: q3_10_17
+141,q3_11_1,byte,1,%33.0g,vl_agree5,Nepal hope: Governance/anti-corruption reforms
+142,q3_11_1_raw,str3,0,%9s,,Original code: q3_11_1
+143,q3_11_2,byte,1,%33.0g,vl_agree5,Nepal hope: Youth political participation
+144,q3_11_2_raw,str1,0,%9s,,Original code: q3_11_2
+145,q3_11_3,byte,1,%33.0g,vl_agree5,Nepal hope: Improved democracy
+146,q3_11_3_raw,str1,0,%9s,,Original code: q3_11_3
+147,q3_11_4,byte,1,%33.0g,vl_agree5,Nepal hope: Economic/employment prospects
+148,q3_11_4_raw,str3,0,%9s,,Original code: q3_11_4
+149,q4_1,byte,1,%33.0g,vl_follow_genz,4.1 Attention to September 8 Gen-Z protest and subsequent politics
+150,q4_1_raw,str1,0,%9s,,Original code: q4_1
+151,q4_2_1,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Corruption
+152,q4_2_1_raw,str3,0,%9s,,Original code: q4_2_1
+153,q4_2_2,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Poor public services
+154,q4_2_2_raw,str1,0,%9s,,Original code: q4_2_2
+155,q4_2_3,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Unemployment/economic opportunities
+156,q4_2_3_raw,str1,0,%9s,,Original code: q4_2_3
+157,q4_2_4,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Rising cost of living
+158,q4_2_4_raw,str1,0,%9s,,Original code: q4_2_4
+159,q4_2_5,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Distrust of leaders/parties/institutions
+160,q4_2_5_raw,str1,0,%9s,,Original code: q4_2_5
+161,q4_2_6,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Nepotism/elite capture
+162,q4_2_6_raw,str3,0,%9s,,Original code: q4_2_6
+163,q4_2_7,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Social media ban
+164,q4_2_7_raw,str1,0,%9s,,Original code: q4_2_7
+165,q4_2_8,byte,1,%33.0g,vl_agree5,Gen-Z protest cause: Foreign/external influence
+166,q4_2_8_raw,str3,0,%9s,,Original code: q4_2_8
+167,q4_3,byte,1,%33.0g,vl_agree5,4.3 Gen-Z protest: turning point in political history
+168,q4_3_raw,str3,0,%9s,,Original code: q4_3
+169,q4_4,byte,1,%33.0g,vl_agree5,4.4 Gen-Z protest: greater youth civic/political participation
+170,q4_4_raw,str3,0,%9s,,Original code: q4_4
+171,q4_5,byte,1,%33.0g,vl_agree5,4.5 Gen-Z protest: youth voices included in mainstream politics
+172,q4_5_raw,str3,0,%9s,,Original code: q4_5
+173,q4_6,byte,1,%33.0g,vl_agree5,4.6 Gen-Z protest: increased public support for RSP
+174,q4_6_raw,str1,0,%9s,,Original code: q4_6
+175,q4_7,byte,1,%33.0g,vl_agree5,4.7 Current government represents youth interests
+176,q4_7_raw,str1,0,%9s,,Original code: q4_7
+177,q4_8,byte,1,%33.0g,vl_agree5,4.8 Government will continue to advance youth interests
+178,q4_8_raw,str1,0,%9s,,Original code: q4_8
+179,q5_1,byte,1,%33.0g,vl_south_follow,5.1 Attention to protests in other Asian countries
+180,q5_1_raw,str3,0,%9s,,Original code: q5_1
+181,q5_2_1,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Governance/corruption/public services
+182,q5_2_1_raw,str3,0,%9s,,Original code: q5_2_1
+183,q5_2_2,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Unemployment/economic opportunities
+184,q5_2_2_raw,str3,0,%9s,,Original code: q5_2_2
+185,q5_2_3,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Distrust of leaders/parties/institutions
+186,q5_2_3_raw,str3,0,%9s,,Original code: q5_2_3
+187,q5_2_4,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Political exclusion
+188,q5_2_4_raw,str3,0,%9s,,Original code: q5_2_4
+189,q5_2_5,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Nepotism/elite capture
+190,q5_2_5_raw,str3,0,%9s,,Original code: q5_2_5
+191,q5_2_6,byte,1,%33.0g,vl_agree6,South Asia dissent cause: Foreign/external influence
+192,q5_2_6_raw,str3,0,%9s,,Original code: q5_2_6
+193,q5_3,byte,1,%33.0g,vl_agree5,5.3 Protests in one country encourage others in South Asia
+194,q5_3_raw,str3,0,%9s,,Original code: q5_3
+195,q5_4,byte,1,%33.0g,vl_south_stability,5.4 Political stability of South Asia today
+196,q5_4_raw,str1,0,%9s,,Original code: q5_4
+197,q5_5,byte,1,%33.0g,vl_optimism,5.5 Optimism for South Asian stability over next five years
+198,q5_5_raw,str1,0,%9s,,Original code: q5_5
+199,q5_6_1,byte,1,%33.0g,vl_agree5,South Asia stability risk: Corruption/lack of accountability
+200,q5_6_1_raw,str3,0,%9s,,Original code: q5_6_1
+201,q5_6_2,byte,1,%33.0g,vl_agree5,South Asia stability risk: Unemployment/economic opportunities
+202,q5_6_2_raw,str3,0,%9s,,Original code: q5_6_2
+203,q5_6_3,byte,1,%33.0g,vl_agree5,South Asia stability risk: Political exclusion
+204,q5_6_3_raw,str1,0,%9s,,Original code: q5_6_3
+205,q5_6_4,byte,1,%33.0g,vl_agree5,South Asia stability risk: Rising cost of living
+206,q5_6_4_raw,str1,0,%9s,,Original code: q5_6_4
+207,q5_6_5,byte,1,%33.0g,vl_agree5,South Asia stability risk: Social media misinformation
+208,q5_6_5_raw,str1,0,%9s,,Original code: q5_6_5
+209,q5_6_6,byte,1,%33.0g,vl_agree5,South Asia stability risk: Foreign/external influence
+210,q5_6_6_raw,str1,0,%9s,,Original code: q5_6_6
+211,q5_6_7,byte,1,%33.0g,vl_agree5,South Asia stability risk: Ethnic/religious conflict
+212,q5_6_7_raw,str3,0,%9s,,Original code: q5_6_7
+213,q5_7_1,byte,1,%33.0g,vl_agree5,South Asia hope: Governance/anti-corruption reforms
+214,q5_7_1_raw,str3,0,%9s,,Original code: q5_7_1
+215,q5_7_2,byte,1,%33.0g,vl_agree5,South Asia hope: Youth political participation
+216,q5_7_2_raw,str1,0,%9s,,Original code: q5_7_2
+217,q5_7_3,byte,1,%33.0g,vl_agree5,South Asia hope: Improved democracy
+218,q5_7_3_raw,str3,0,%9s,,Original code: q5_7_3
+219,q5_7_4,byte,1,%33.0g,vl_agree5,South Asia hope: Economic/employment prospects
+220,q5_7_4_raw,str1,0,%9s,,Original code: q5_7_4
+221,gps_raw,str48,0,%48s,,Original GPS point: latitude longitude altitude accuracy
+222,gps_latitude,double,1,%10.0g,,GPS latitude (decimal degrees)
+223,gps_longitude,double,1,%10.0g,,GPS longitude (decimal degrees)
+224,gps_altitude,double,1,%10.0g,,GPS altitude (metres)
+225,gps_accuracy,double,1,%10.0g,,GPS horizontal accuracy (metres)
+226,submission_datetime_raw,str19,0,%19s,,"Submission date and time: source value, timezone unspecified"
+227,validation_status,str1,0,%9s,,Submission validation status
+228,submission_notes,str1,0,%9s,,Submission notes
+229,submission_status,str17,0,%17s,,Submission status
+230,submitted_by,str10,0,%10s,,Account submitting the response
+231,form_version,str22,0,%22s,,Form version identifier
+232,submission_tags,str1,0,%9s,,Submission tags
+233,root_uuid,str41,0,%41s,,Root submission UUID
+234,source_index,int,1,%10.0g,,Original export row index
+235,qc_unknown_codes,byte,1,%8.0g,,Count of response codes absent from supplied choices
+236,qc_required_missing,byte,1,%8.0g,,Count of missing required responses within form routing
+237,qc_skip_conflicts,byte,1,%8.0g,,Count of responses outside supplied form routing
+238,qc_applicable_missing,byte,1,%8.0g,,Count of missing responses within form routing (incl optional)
+239,ward_raw,str6,0,%9s,,"Ward: original response, including Nepali digits"
+240,local_government_raw,str61,0,%61s,,Local government: original spelling
+241,interview_datetime,double,1,%tcCCYY-NN-DD_HH:MM:SS,,Interview date and time: local (+05:45)
+242,submission_datetime,double,1,%tcCCYY-NN-DD_HH:MM:SS,,Submission datetime as exported; timezone not specified
+243,qc_age,byte,1,%8.0g,qc,Age outside 18-35 or noninteger/missing
+244,qc_eligibility,byte,1,%8.0g,qc,"Consent, screener or age eligibility issue"
+245,qc_ward,byte,1,%8.0g,qc,Ward nonpositive or noninteger
+246,qc_location_numeric,byte,1,%8.0g,qc,Local government entered as a number
+247,qc_gps,byte,1,%8.0g,qc,GPS outside global bounds or invalid/missing accuracy
+248,qc_education_routing,byte,1,%8.0g,qc,Master's second year: Master's institution blank (form excludes)
+249,qc_duplicate_id,byte,1,%12.0g,,Other records sharing submission ID
+250,qc_duplicate_uuid,byte,1,%12.0g,,Other records sharing submission UUID
+251,ms_screener,byte,1,%33.0g,missing_status,Form routing/missingness: screener
+252,ms_gender_other,byte,1,%33.0g,missing_status,Form routing/missingness: gender_other
+253,ms_edu_school,byte,1,%33.0g,missing_status,Form routing/missingness: edu_school
+254,ms_edu_plus2,byte,1,%33.0g,missing_status,Form routing/missingness: edu_plus2
+255,ms_edu_bachelors,byte,1,%33.0g,missing_status,Form routing/missingness: edu_bachelors
+256,ms_edu_masters,byte,1,%33.0g,missing_status,Form routing/missingness: edu_masters
+257,ms_religion,byte,1,%33.0g,missing_status,Form routing/missingness: religion
+258,ms_family_returned,byte,1,%33.0g,missing_status,Form routing/missingness: family_returned
+259,ms_abroad_purpose,byte,1,%33.0g,missing_status,Form routing/missingness: abroad_purpose
+260,ms_nepal_plan,byte,1,%33.0g,missing_status,Form routing/missingness: nepal_plan
+261,ms_q2_4,byte,1,%33.0g,missing_status,Form routing/missingness: q2_4
+262,ms_q2_4_1,byte,1,%33.0g,missing_status,Form routing/missingness: q2_4_1
+263,ms_q2_4_1_other,byte,1,%33.0g,missing_status,Form routing/missingness: q2_4_1_other
+264,ms_q2_5,byte,1,%33.0g,missing_status,Form routing/missingness: q2_5
+265,ms_q2_5_1,byte,1,%33.0g,missing_status,Form routing/missingness: q2_5_1
+266,ms_q2_5_1_other,byte,1,%33.0g,missing_status,Form routing/missingness: q2_5_1_other
+267,ms_q2_6,byte,1,%33.0g,missing_status,Form routing/missingness: q2_6
+268,ms_q2_6_1,byte,1,%33.0g,missing_status,Form routing/missingness: q2_6_1
+269,ms_q2_6_1_other,byte,1,%33.0g,missing_status,Form routing/missingness: q2_6_1_other
+270,ms_q2_7_1,byte,1,%33.0g,missing_status,Form routing/missingness: q2_7_1
+271,qc_review,byte,1,%8.0g,qc,At least one substantive data-quality flag; review required

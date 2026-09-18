@@ -1,0 +1,22 @@
+{
+  "observations": 884,
+  "variables": 271,
+  "original_columns_verified": 155,
+  "categorical_fields_verified": 103,
+  "checks": "All original source cells, categorical code mappings, source codes, dates, ward digit conversion, geography normalization, IDs and key routing checks passed.",
+  "flagged_records_by_check": {
+    "qc_unknown_codes": 0,
+    "qc_required_missing": 0,
+    "qc_skip_conflicts": 13,
+    "qc_applicable_missing": 112,
+    "qc_age": 0,
+    "qc_eligibility": 0,
+    "qc_ward": 0,
+    "qc_location_numeric": 1,
+    "qc_gps": 0,
+    "qc_education_routing": 35,
+    "qc_duplicate_id": 0,
+    "qc_duplicate_uuid": 0,
+    "qc_review": 48
+  }
+}

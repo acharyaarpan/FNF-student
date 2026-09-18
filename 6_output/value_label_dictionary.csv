@@ -1,0 +1,198 @@
+﻿choice_list,source_code,stata_code,label_en,label_ne
+yes_no,1,1,Yes,छ
+yes_no,2,2,No,छैन
+screener,1,1,Yes,हो
+screener,2,2,No,होइन
+xq9zw28,biwash,1,Biwash,Biwash
+xq9zw28,buddhi,2,Buddhi,Buddhi
+xq9zw28,janak,3,Janak,Janak
+xq9zw28,januka,4,Januka,Januka
+xq9zw28,kanti,5,Kanti,Kanti
+xq9zw28,manju,6,Manju,Manju
+xq9zw28,nabin,7,Nabin,Nabin
+xq9zw28,pankaj,8,Pankaj,Pankaj
+xq9zw28,sagar,9,Sagar,Sagar
+xq9zw28,shreeya,10,Shreeya,Shreeya
+xq9zw28,sumitra,11,Sumitra,Sumitra
+xq9zw28,susmita,12,Susmita,Susmita
+xq9zw28,usha,13,Usha,Usha
+ar01j09,koshi,1,Koshi,कोशी 
+ar01j09,madhesh,2,Madhesh,मधेश 
+ar01j09,bagamati,3,Bagmati,बागमती 
+ar01j09,gandaki,4,Gandaki,गण्डकी 
+ar01j09,lumbini,5,Lumbini,लुम्बिनी 
+ar01j09,sudurpaschim,6,Sudurpaschim,सुदुरपस्चिम 
+ar01j09,karnali,7,Karnali,कर्णाली 
+gender,1,1,Male,पुरुष
+gender,2,2,Female,महिला
+gender,3,3,Others,अन्य
+gender,-99,.r,Prefer not to say,भन्न चाहन्न
+education,1,1,Bachelors 1st year,स्नातक प्रथम बर्ष 
+education,2,2,Bachelors 2nd year,स्नातक दोस्रो वर्ष
+education,3,3,Bachelors 3rd year,स्नातक तेस्रो वर्ष
+education,4,4,Bachelors 4th year,स्नातक चौथो वर्ष
+education,5,5,Bachelors 5th year,स्नातक पाँचौँ वर्ष
+education,6,6,Masters 1st year,स्नातकोत्तर प्रथम वर्ष
+education,7,7,Masters 2nd year,स्नातकोत्तर दोस्रो वर्ष
+education,8,8,PHD,PHD
+education,-99,.r,Prefer not to say,भन्न चाहन्न
+private_public,1,1,Private,निजि
+private_public,2,2,Public,सार्वजनिक/सरकारी
+private_public,-99,.r,Prefer not to say,भन्न चाहन्न
+cp3qw00,1,1,Bhramin/Chettri,ब्रामण/क्षेत्री 
+cp3qw00,2,2,Dalit,दलित 
+cp3qw00,3,3,Janajati,जनजाती 
+cp3qw00,4,4,Muslim,मुस्लिम 
+cp3qw00,5,5,Madhesi,मधेसी 
+cp3qw00,-99,.r,Prefer not to say,भन्न चाहन्न 
+yes_no_unsure,1,1,Yes,भएको
+yes_no_unsure,2,2,No,नभएको
+yes_no_unsure,3,3,Not Sure,निश्चित छैन
+yes_no_unsure,-99,.r,Prefer not to say,भन्न चाहन्न
+hn9bp27,1,1,Hindu,हिन्दु 
+hn9bp27,2,2,Muslim,मुस्लिम 
+hn9bp27,3,3,Christian,क्रिस्टियन 
+hn9bp27,4_1,4,Buddhist,बौद्ध 
+hn9bp27,5,5,Others,अन्य 
+hn9bp27,prefer_not_to_say,.r,Prefer not to say,भन्न चाहन्न 
+marital,1,1,Never Married,अविवाहित
+marital,2,2,Married,विवाहित
+marital,3,3,Divorced/separated/widowed,सम्बन्धविच्छेद/अलग बस्ने/विधुर वा विधवा
+urban_rural,1,1,Urban,शहरी
+urban_rural,2,2,Rural,ग्रामीण
+urban_rural,-99,.r,Prefer not to say,भन्न चाहन्न
+yes_no_pns,1,1,Yes,हो
+yes_no_pns,2,2,No,होइन
+yes_no_pns,-99,.r,Prefer not to say,भन्न चाहन्न
+yes_no_dk_pns,1,1,Yes,हो
+yes_no_dk_pns,2,2,No,होइन
+yes_no_dk_pns,3,3,Don't know/Unsure,थाहा छैन
+yes_no_dk_pns,-99,.r,Prefer not to say,भन्न चाहन्न
+migration_plan,1,1,Go Abroad,विदेश जाने
+migration_plan,2,2,Stay in Nepal,नेपालमै बस्ने
+migration_plan,3,3,Don't know/Unsure,थाहा छैन
+migration_plan,-99,.r,Prefer not to say,भन्न चाहन्न
+abroad_purpose,1,1,Study,पढाई गर्न 
+abroad_purpose,2,2,Work,काम गर्न 
+abroad_purpose,3,3,Study and Work,पढाई र काम दुवै 
+abroad_purpose,4,4,Travel,घुम्न जाने 
+nepal_plan,1,1,Study Further,थप पढाई गर्ने 
+nepal_plan,2,2,Seek a Job,काम गर्ने 
+nepal_plan,3,3,Start a business,व्यवसाय गर्ने 
+nepal_plan,4,4,Study and Seek a job,पढाई र काम दुवै 
+nepal_plan,5,5,Study and Start a business,पढाई र व्यवसाय दुवै 
+nepal_plan,6,6,Seek a job and Start a business,काम र व्यवसाय दुवै 
+agree5,1,1,Strongly agree,पूर्ण रूपमा सहमत
+agree5,2,2,Agree,सहमत
+agree5,3,3,Neutral,ठिक ठिकै
+agree5,4,4,Disagree,असहमत
+agree5,5,5,Strongly disagree,पूर्ण रूपमा असहमत
+agree5,-99,.r,Prefer not to say,भन्न चाहन्न
+agree5,6,.d,Don't know,थाहा छैन 
+newsfreq,1,1,Daily,दैनिक
+newsfreq,2,2,Several times a week,हप्तामा धेरै पटक
+newsfreq,3,3,Weekly,साप्ताहिक
+newsfreq,4,4,Occasionally,कहिलेकाहीँ
+newsfreq,5,5,Never,कहिल्यै होइन
+vote,1,1,Yes,हो
+vote,2,2,No,होइन
+vote,3,3,"Voted, but does not know at which level",हालेको तर कुन तहमा हालेको थाहा छैन
+vote,-99,.r,Prefer not to say,भन्न चाहन्न
+nonvote_reason,1,1,Did not register,दर्ता नगरेको 
+nonvote_reason,3,3,Away from registered voting location,दर्ता भएको मतदान केन्द्रबाट टाढा रहेको
+nonvote_reason,4,4,Health/family issue,स्वास्थ्य/पारिवारिक समस्या
+nonvote_reason,5,5,Not interested in voting process,मतदान प्रक्रियामा रुचि नभएको
+nonvote_reason,6,6,Did not trust political parties/candidates,राजनीतिक दल/उम्मेदवारमाथि विश्वास नभएको
+nonvote_reason,7,7,Intentionally boycotted the election,जानाजानी निर्वाचन बहिष्कार गरेको
+nonvote_reason,8,8,My vote would make no difference,मेरो मतले कुनै फरक पार्दैन भन्ने लाग्यो
+nonvote_reason,-99,.r,Prefer not to say,भन्न चाहन्न
+nonvote_reason,others_please_specify,96,Others Please Specify,अरु भए खुलाइदिनु होला 
+future_vote,1,1,Very Likely,धेरै सम्भावना
+future_vote,2,2,Somewhat Likely,केही सम्भावना
+future_vote,3,3,Somewhat unlikely,केही कम सम्भावना
+future_vote,4,4,Very unlikely,धेरै कम सम्भावना
+future_vote,5,.d,Don't know,अहिले थाहा छैन
+future_vote,-99,.r,Prefer not to say,भन्न चाहन्न
+unlikely_reason,1,1,Did not register,दर्ता नगरेको
+unlikely_reason,2,2,Away from registered voting location,दर्ता भएको मतदान केन्द्रबाट टाढा रहेको
+unlikely_reason,3,3,Not interested in voting process,मतदान प्रक्रियामा रुचि नभएको
+unlikely_reason,4,4,Do not trust political parties/candidates,राजनीतिक दल/उम्मेदवारमाथि विश्वास छैन
+unlikely_reason,5,5,Intentionally boycott the election,जानाजानी निर्वाचन बहिष्कार गर्ने
+unlikely_reason,6,6,My vote would make no difference,मेरो मतले कुनै फरक पार्दैन भन्ने लागिरहेको छ
+unlikely_reason,-99,.r,Prefer not to say,भन्न चाहन्न
+civic_yes_no,1,1,Yes,थियो
+civic_yes_no,2,2,No,थिएन
+confidence,1,1,Very confident,धेरै विश्वस्त
+confidence,2,2,Confident,विश्वस्त
+confidence,3,3,Neutral,ठिक ठिकै
+confidence,4,4,Not confident,विश्वस्त छैन
+confidence,5,5,Not at all confident,कति पनि  विश्वस्त छैन
+vx7xv18,1,1,Strongly agree,पूर्ण रूपमा सहमत
+vx7xv18,2,2,Agree,सहमत
+vx7xv18,3,3,Neutral,ठिक ठिकै
+vx7xv18,4,4,Disagree,असहमत
+vx7xv18,5,5,Strongly disagree,पूर्ण रूपमा असहमत
+vx7xv18,-99,.r,Prefer not to say,भन्न चाहन्न
+fx1wd71,1,1,Strongly agree,पूर्ण रूपमा सहमत
+fx1wd71,2,2,Agree,सहमत
+fx1wd71,3,3,Neutral,ठिक ठिकै
+fx1wd71,4,4,Disagree,असहमत
+fx1wd71,5,5,Strongly disagree,पूर्ण रूपमा असहमत
+fx1wd71,-99,.r,Prefer not to say,भन्न चाहन्न
+stability,1,1,Very stable,धेरै स्थिर
+stability,2,2,Stable,स्थिर
+stability,3,3,Neutral,तटस्थ
+stability,4,4,Unstable,अस्थिर
+stability,5,5,Very unstable,धेरै अस्थिर
+stability,-99,.r,Prefer not to say,भन्न चाहन्न
+stability,6,.d,Don't know,थाहा छैन 
+comparison,1,1,Much more stable,धेरै बढी स्थिर
+comparison,2,2,Somewhat more stable,केही बढी स्थिर
+comparison,3,3,About the same,उस्तै
+comparison,4,4,Somewhat less stable,केही कम स्थिर
+comparison,5,5,Much less stable,धेरै कम स्थिर
+comparison,-99,.r,Prefer not to say,भन्न चाहन्न
+comparison,6,.d,Don't know,थाहा छैन
+likelihood,1,1,Very Likely,धेरै सम्भावना
+likelihood,2,2,Somewhat Likely,केही सम्भावना
+likelihood,3,3,Neutral/ Not sure,तटस्थ/निश्चित छैन
+likelihood,4,4,Somewhat unlikely,केही कम सम्भावना
+likelihood,5,5,Very unlikely,धेरै कम सम्भावना
+likelihood,-99,.r,Prefer not to say,भन्न चाहन्न
+sn7om92,1,1,Strongly agree,पूर्ण रूपमा सहमत
+sn7om92,2,2,Agree,सहमत
+sn7om92,3,3,Neutral,ठिक ठिकै
+sn7om92,4,4,Disagree,असहमत
+sn7om92,5,5,Strongly disagree,पूर्ण रूपमा असहमत
+sn7om92,-99,.r,Prefer not to say,भन्न चाहन्न
+sn7om92,dont_know,.d,Don't know,थाहा छैन 
+follow_genz,1,1,Engaged directly,प्रत्यक्ष रूपमा संलग्न भएको
+follow_genz,2,2,Very closely,धेरै  चासो राखेको
+follow_genz,3,3,Somewhat closely,केही चासो राखेको
+follow_genz,4,4,Heard but followed very little,सुनेको तर धेरै चासो नराखेको
+follow_genz,5,5,Not at all,कति पनि  चासो  नराखेको
+follow_genz,-99,.r,Prefer not to say,भन्न चाहन्न
+south_follow,1,1,Very Closely,धेरै नजिकबाट
+south_follow,2,2,Somewhat Closely,केही नजिकबाट
+south_follow,3,3,Not very Closely,त्यति धेरै नजिकबाट होइन
+south_follow,4,4,Not at all,कति पनि छैन
+south_follow,-99,.r,Prefer not to say,भन्न चाहन्न
+agree6,1,1,Strongly Agree,पूर्ण रूपमा सहमत
+agree6,2,2,Agree,सहमत
+agree6,3,3,Neutral,तटस्थ
+agree6,4,4,Disagree,असहमत
+agree6,5,5,Strongly disagree,पूर्ण रूपमा असहमत
+agree6,-99,.r,Prefer not to say,भन्न चाहन्न
+agree6,6,.d,Don't know,थाहा छैन
+south_stability,1,1,Very Stable,धेरै स्थिर
+south_stability,2,2,Stable,स्थिर
+south_stability,3,3,Neutral,तटस्थ
+south_stability,4,4,Unstable,अस्थिर
+south_stability,5,5,Very Unstable,धेरै अस्थिर
+south_stability,6,.d,Don't know,थाहा छैन
+optimism,1,1,Very Optimistic,धेरै आशावादी
+optimism,2,2,Somewhat Optimistic,केही आशावादी
+optimism,3,3,Neutral,तटस्थ
+optimism,4,4,Somewhat Pessimistic,केही निराशावादी
+optimism,5,5,Very Pessimistic,धेरै निराशावादी
+optimism,6,.d,Don't know,थाहा छैन

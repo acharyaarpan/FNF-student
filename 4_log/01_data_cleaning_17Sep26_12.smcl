@@ -1,0 +1,27 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:/Users/ACER/OneDrive - Samriddhi Foundation/Projects/FNF/4_log/01_data_cleaning_17Sep26_12.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}17 Sep 2026, 12:59:55
+{txt}r; t=0.04 12:59:55
+{com}.         
+. {c )-}       
+{txt}r; t=0.07 12:59:55
+
+{com}. *------------------------------------------------------------------------------*
+. **#Load the dataset
+. 
+. import excel "$data_raw\raw-data-student.xlsx", sheet("Youth and Aspirations Percep...") firstrow
+{res}{text}(155 vars, 884 obs)
+r; t=1.09 12:59:56
+
+{com}. 
+. 
+. 
+. 
+. 
+{txt}end of do-file
+
+r; t=1.17 12:59:56
+{com}. exit, clear
