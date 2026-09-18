@@ -1,0 +1,282 @@
+﻿label_set,source_code,stata_code,label_text
+qc,Derived audit status,0,No
+qc,Derived audit status,1,Yes
+missing_status,Derived audit status,0,Answered
+missing_status,Derived audit status,1,Missing: expected by form routing
+missing_status,Derived audit status,2,Missing: outside form routing
+missing_status,Derived audit status,3,Missing: routing undetermined
+missing_status,Derived audit status,4,Answered outside form routing
+missing_status,Derived audit status,5,Answered: routing undetermined
+vl_yes_no,1,1,Yes
+vl_yes_no,2,2,No
+vl_yes_no,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_yes_no,No corresponding choice in this list; added definition,.d,Don't know
+vl_yes_no,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_screener,1,1,Yes
+vl_screener,2,2,No
+vl_screener,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_screener,No corresponding choice in this list; added definition,.d,Don't know
+vl_screener,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_xq9zw28,biwash,1,Biwash
+vl_xq9zw28,buddhi,2,Buddhi
+vl_xq9zw28,janak,3,Janak
+vl_xq9zw28,januka,4,Januka
+vl_xq9zw28,kanti,5,Kanti
+vl_xq9zw28,manju,6,Manju
+vl_xq9zw28,nabin,7,Nabin
+vl_xq9zw28,pankaj,8,Pankaj
+vl_xq9zw28,sagar,9,Sagar
+vl_xq9zw28,shreeya,10,Shreeya
+vl_xq9zw28,sumitra,11,Sumitra
+vl_xq9zw28,susmita,12,Susmita
+vl_xq9zw28,usha,13,Usha
+vl_xq9zw28,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_xq9zw28,No corresponding choice in this list; added definition,.d,Don't know
+vl_xq9zw28,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_ar01j09,koshi,1,Koshi
+vl_ar01j09,madhesh,2,Madhesh
+vl_ar01j09,bagamati,3,Bagmati
+vl_ar01j09,gandaki,4,Gandaki
+vl_ar01j09,lumbini,5,Lumbini
+vl_ar01j09,sudurpaschim,6,Sudurpaschim
+vl_ar01j09,karnali,7,Karnali
+vl_ar01j09,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_ar01j09,No corresponding choice in this list; added definition,.d,Don't know
+vl_ar01j09,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_gender,1,1,Male
+vl_gender,2,2,Female
+vl_gender,3,3,Others
+vl_gender,-99,.r,Prefer not to say
+vl_gender,No corresponding choice in this list; added definition,.d,Don't know
+vl_gender,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_education,1,1,Bachelors 1st year
+vl_education,2,2,Bachelors 2nd year
+vl_education,3,3,Bachelors 3rd year
+vl_education,4,4,Bachelors 4th year
+vl_education,5,5,Bachelors 5th year
+vl_education,6,6,Masters 1st year
+vl_education,7,7,Masters 2nd year
+vl_education,8,8,PHD
+vl_education,-99,.r,Prefer not to say
+vl_education,No corresponding choice in this list; added definition,.d,Don't know
+vl_education,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_private_public,1,1,Private
+vl_private_public,2,2,Public
+vl_private_public,-99,.r,Prefer not to say
+vl_private_public,No corresponding choice in this list; added definition,.d,Don't know
+vl_private_public,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_cp3qw00,1,1,Bhramin/Chettri
+vl_cp3qw00,2,2,Dalit
+vl_cp3qw00,3,3,Janajati
+vl_cp3qw00,4,4,Muslim
+vl_cp3qw00,5,5,Madhesi
+vl_cp3qw00,-99,.r,Prefer not to say
+vl_cp3qw00,No corresponding choice in this list; added definition,.d,Don't know
+vl_cp3qw00,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_yes_no_unsure,1,1,Yes
+vl_yes_no_unsure,2,2,No
+vl_yes_no_unsure,3,3,Not Sure
+vl_yes_no_unsure,-99,.r,Prefer not to say
+vl_yes_no_unsure,No corresponding choice in this list; added definition,.d,Don't know
+vl_yes_no_unsure,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_hn9bp27,1,1,Hindu
+vl_hn9bp27,2,2,Muslim
+vl_hn9bp27,3,3,Christian
+vl_hn9bp27,"4_1, 41 (user-confirmed alias)",4,Buddhist
+vl_hn9bp27,5,5,Others
+vl_hn9bp27,prefer_not_to_say,.r,Prefer not to say
+vl_hn9bp27,No corresponding choice in this list; added definition,.d,Don't know
+vl_hn9bp27,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_marital,1,1,Never Married
+vl_marital,2,2,Married
+vl_marital,3,3,Divorced/separated/widowed
+vl_marital,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_marital,No corresponding choice in this list; added definition,.d,Don't know
+vl_marital,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_urban_rural,1,1,Urban
+vl_urban_rural,2,2,Rural
+vl_urban_rural,-99,.r,Prefer not to say
+vl_urban_rural,No corresponding choice in this list; added definition,.d,Don't know
+vl_urban_rural,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_yes_no_pns,1,1,Yes
+vl_yes_no_pns,2,2,No
+vl_yes_no_pns,-99,.r,Prefer not to say
+vl_yes_no_pns,No corresponding choice in this list; added definition,.d,Don't know
+vl_yes_no_pns,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_yes_no_dk_pns,1,1,Yes
+vl_yes_no_dk_pns,2,2,No
+vl_yes_no_dk_pns,3,3,Don't know/Unsure
+vl_yes_no_dk_pns,-99,.r,Prefer not to say
+vl_yes_no_dk_pns,No corresponding choice in this list; added definition,.d,Don't know
+vl_yes_no_dk_pns,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_migration_plan,1,1,Go Abroad
+vl_migration_plan,2,2,Stay in Nepal
+vl_migration_plan,3,3,Don't know/Unsure
+vl_migration_plan,-99,.r,Prefer not to say
+vl_migration_plan,No corresponding choice in this list; added definition,.d,Don't know
+vl_migration_plan,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_abroad_purpose,1,1,Study
+vl_abroad_purpose,2,2,Work
+vl_abroad_purpose,3,3,Study and Work
+vl_abroad_purpose,4,4,Travel
+vl_abroad_purpose,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_abroad_purpose,No corresponding choice in this list; added definition,.d,Don't know
+vl_abroad_purpose,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_nepal_plan,1,1,Study Further
+vl_nepal_plan,2,2,Seek a Job
+vl_nepal_plan,3,3,Start a business
+vl_nepal_plan,4,4,Study and Seek a job
+vl_nepal_plan,5,5,Study and Start a business
+vl_nepal_plan,6,6,Seek a job and Start a business
+vl_nepal_plan,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_nepal_plan,No corresponding choice in this list; added definition,.d,Don't know
+vl_nepal_plan,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_agree5,1,1,Strongly agree
+vl_agree5,2,2,Agree
+vl_agree5,3,3,Neutral
+vl_agree5,4,4,Disagree
+vl_agree5,5,5,Strongly disagree
+vl_agree5,-99,.r,Prefer not to say
+vl_agree5,6,.d,Don't know
+vl_agree5,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_newsfreq,1,1,Daily
+vl_newsfreq,2,2,Several times a week
+vl_newsfreq,3,3,Weekly
+vl_newsfreq,4,4,Occasionally
+vl_newsfreq,5,5,Never
+vl_newsfreq,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_newsfreq,No corresponding choice in this list; added definition,.d,Don't know
+vl_newsfreq,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_vote,1,1,Yes
+vl_vote,2,2,No
+vl_vote,3,3,"Voted, but does not know at which level"
+vl_vote,-99,.r,Prefer not to say
+vl_vote,No corresponding choice in this list; added definition,.d,Don't know
+vl_vote,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_nonvote_reason,1,1,Did not register
+vl_nonvote_reason,3,3,Away from registered voting location
+vl_nonvote_reason,4,4,Health/family issue
+vl_nonvote_reason,5,5,Not interested in voting process
+vl_nonvote_reason,6,6,Did not trust political parties/candidates
+vl_nonvote_reason,7,7,Intentionally boycotted the election
+vl_nonvote_reason,8,8,My vote would make no difference
+vl_nonvote_reason,-99,.r,Prefer not to say
+vl_nonvote_reason,others_please_specify,96,Others Please Specify
+vl_nonvote_reason,No corresponding choice in this list; added definition,.d,Don't know
+vl_nonvote_reason,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_future_vote,1,1,Very Likely
+vl_future_vote,2,2,Somewhat Likely
+vl_future_vote,3,3,Somewhat unlikely
+vl_future_vote,4,4,Very unlikely
+vl_future_vote,5,.d,Don't know
+vl_future_vote,-99,.r,Prefer not to say
+vl_future_vote,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_unlikely_reason,1,1,Did not register
+vl_unlikely_reason,2,2,Away from registered voting location
+vl_unlikely_reason,3,3,Not interested in voting process
+vl_unlikely_reason,4,4,Do not trust political parties/candidates
+vl_unlikely_reason,5,5,Intentionally boycott the election
+vl_unlikely_reason,6,6,My vote would make no difference
+vl_unlikely_reason,-99,.r,Prefer not to say
+vl_unlikely_reason,No corresponding choice in this list; added definition,.d,Don't know
+vl_unlikely_reason,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_civic_yes_no,1,1,Yes
+vl_civic_yes_no,2,2,No
+vl_civic_yes_no,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_civic_yes_no,No corresponding choice in this list; added definition,.d,Don't know
+vl_civic_yes_no,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_confidence,1,1,Very confident
+vl_confidence,2,2,Confident
+vl_confidence,3,3,Neutral
+vl_confidence,4,4,Not confident
+vl_confidence,5,5,Not at all confident
+vl_confidence,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_confidence,No corresponding choice in this list; added definition,.d,Don't know
+vl_confidence,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_vx7xv18,1,1,Strongly agree
+vl_vx7xv18,2,2,Agree
+vl_vx7xv18,3,3,Neutral
+vl_vx7xv18,4,4,Disagree
+vl_vx7xv18,5,5,Strongly disagree
+vl_vx7xv18,-99,.r,Prefer not to say
+vl_vx7xv18,No corresponding choice in this list; added definition,.d,Don't know
+vl_vx7xv18,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_fx1wd71,1,1,Strongly agree
+vl_fx1wd71,2,2,Agree
+vl_fx1wd71,3,3,Neutral
+vl_fx1wd71,4,4,Disagree
+vl_fx1wd71,5,5,Strongly disagree
+vl_fx1wd71,-99,.r,Prefer not to say
+vl_fx1wd71,No corresponding choice in this list; added definition,.d,Don't know
+vl_fx1wd71,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_stability,1,1,Very stable
+vl_stability,2,2,Stable
+vl_stability,3,3,Neutral
+vl_stability,4,4,Unstable
+vl_stability,5,5,Very unstable
+vl_stability,-99,.r,Prefer not to say
+vl_stability,6,.d,Don't know
+vl_stability,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_comparison,1,1,Much more stable
+vl_comparison,2,2,Somewhat more stable
+vl_comparison,3,3,About the same
+vl_comparison,4,4,Somewhat less stable
+vl_comparison,5,5,Much less stable
+vl_comparison,-99,.r,Prefer not to say
+vl_comparison,6,.d,Don't know
+vl_comparison,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_likelihood,1,1,Very Likely
+vl_likelihood,2,2,Somewhat Likely
+vl_likelihood,3,3,Neutral/ Not sure
+vl_likelihood,4,4,Somewhat unlikely
+vl_likelihood,5,5,Very unlikely
+vl_likelihood,-99,.r,Prefer not to say
+vl_likelihood,No corresponding choice in this list; added definition,.d,Don't know
+vl_likelihood,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_sn7om92,1,1,Strongly agree
+vl_sn7om92,2,2,Agree
+vl_sn7om92,3,3,Neutral
+vl_sn7om92,4,4,Disagree
+vl_sn7om92,5,5,Strongly disagree
+vl_sn7om92,-99,.r,Prefer not to say
+vl_sn7om92,dont_know,.d,Don't know
+vl_sn7om92,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_follow_genz,1,1,Engaged directly
+vl_follow_genz,2,2,Very closely
+vl_follow_genz,3,3,Somewhat closely
+vl_follow_genz,4,4,Heard but followed very little
+vl_follow_genz,5,5,Not at all
+vl_follow_genz,-99,.r,Prefer not to say
+vl_follow_genz,No corresponding choice in this list; added definition,.d,Don't know
+vl_follow_genz,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_south_follow,1,1,Very Closely
+vl_south_follow,2,2,Somewhat Closely
+vl_south_follow,3,3,Not very Closely
+vl_south_follow,4,4,Not at all
+vl_south_follow,-99,.r,Prefer not to say
+vl_south_follow,No corresponding choice in this list; added definition,.d,Don't know
+vl_south_follow,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_agree6,1,1,Strongly Agree
+vl_agree6,2,2,Agree
+vl_agree6,3,3,Neutral
+vl_agree6,4,4,Disagree
+vl_agree6,5,5,Strongly disagree
+vl_agree6,-99,.r,Prefer not to say
+vl_agree6,6,.d,Don't know
+vl_agree6,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_south_stability,1,1,Very Stable
+vl_south_stability,2,2,Stable
+vl_south_stability,3,3,Neutral
+vl_south_stability,4,4,Unstable
+vl_south_stability,5,5,Very Unstable
+vl_south_stability,6,.d,Don't know
+vl_south_stability,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_south_stability,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
+vl_optimism,1,1,Very Optimistic
+vl_optimism,2,2,Somewhat Optimistic
+vl_optimism,3,3,Neutral
+vl_optimism,4,4,Somewhat Pessimistic
+vl_optimism,5,5,Very Pessimistic
+vl_optimism,6,.d,Don't know
+vl_optimism,No corresponding choice in this list; added definition,.r,Prefer not to say
+vl_optimism,No corresponding choice in this list; added definition,.u,Unmapped source response (review)
