@@ -12,3 +12,8 @@ label define yesno 1 "yes" 2 "no"
 
 *Label variables 
 label var screener "Eligible: age 18-35 and student at sampled institution"
+
+
+
+*value label assignment
+label var screener yesno
