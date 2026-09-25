@@ -373,11 +373,26 @@ label variable metarootUuid "Root submission UUID"
 label variable _index "Original export row index"
 
 compress
-save "$data_clean/student_survey_cleaned.dta", replace
-
 drop if interview_date < td(23aug2026)
+
+
+*Creating age-cohort
+egen byte age_cohort = cut(age), at(18, 22, 26, 30, 36) icodes
+
+label define age_cohort_lbl ///
+    0 "18–21" ///
+    1 "22–25" ///
+    2 "26–29" ///
+    3 "30–35"
+
+label values age_cohort age_cohort_lbl
+label variable age_cohort "Age cohort"
+
+
 
 // These are dropped for now
 drop Record_your_current_location _Record_your_current_location_la _Record_your_current_location_lo _Record_your_current_location_al _Record_your_current_location_pr province _id _uuid _submission_time _validation_status _notes _status _submitted_by __version__ _tags metarootUuid _index interview_time_num consent_agree screener
+
+save "$data_clean/student_survey_cleaned.dta", replace
 
 export excel using "$data_clean/student_survey_cleaned.xlsx", firstrow(variables) replace
