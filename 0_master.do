@@ -54,10 +54,10 @@ cap clear frames
 		gl data_raw 		"$data/1_raw"
 		gl data_clean		"$data/2_clean"
 	global prep				"$workspace/2_prep"
-	global	analysis		"$workspace/3_analysis"	
-	global	log				"$workspace/4_log"
-	global	doc				"$workspace/5_documentation"
-	global	output			"$workspace/6_output"
+	global analysis		    "$workspace/3_analysis"	
+	global log				"$workspace/4_log"
+	global doc				"$workspace/5_documentation"
+	global output			"$workspace/6_output"
 	
 	
 *--------------------------------------------------------------------------*

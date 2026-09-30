@@ -245,6 +245,10 @@ assert inlist(family_abroad_bin, 0, 1) if !missing(family_abroad_bin)
 
 count if analysis_sample
 
+/*Prakash has created this to make it easy for analysis. this is used in prakash in 3_analysis */
+
+save "$analysis/data_prakash.dta", replace
+
 
 *------------------------------------------------------------------------------*
 **# Ordered-probit estimation
@@ -285,3 +289,6 @@ oprobit politics3 ///
     i.rural ib1.school_path i.news_frequent i.family_abroad_bin ///
     `controls' if analysis_sample
 estimates store OP7_three_category
+
+
+
