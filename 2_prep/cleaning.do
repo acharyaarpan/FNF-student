@@ -393,6 +393,39 @@ label variable age_cohort "Age cohort"
 // These are dropped for now
 drop Record_your_current_location _Record_your_current_location_la _Record_your_current_location_lo _Record_your_current_location_al _Record_your_current_location_pr province _id _uuid _submission_time _validation_status _notes _status _submitted_by __version__ _tags metarootUuid _index interview_time_num consent_agree screener
 
+//Some missing cleaning
+* Correct reasons for not voting in the 2022 elections
+capture label drop nonvote_reason_lbl
+
+label define nonvote_reason_lbl ///
+     1  "Did not register" ///
+     3  "Away from registered voting location" ///
+     4  "Health/family issue" ///
+     5  "Not interested in voting process" ///
+     6  "Did not trust political parties/candidates" ///
+     7  "Intentionally boycotted the election" ///
+     8  "My vote would make no difference" ///
+    -99 "Prefer not to say" ///
+     96 "Other reason specified"
+
+foreach var in q2_4_1 q2_5_1 q2_6_1 {
+
+    * The raw survey stores these response codes as strings
+    capture confirm string variable `var'
+    if !_rc {
+        replace `var' = strtrim(`var')
+
+        * Preserve respondents who selected the survey's Other option
+        replace `var' = "96" if lower(`var') == "others_please_specify"
+
+        destring `var', replace
+    }
+
+    label values `var' nonvote_reason_lbl
+}
+
+
+
 save "$data_clean/student_survey_cleaned.dta", replace
 
 export excel using "$data_clean/student_survey_cleaned.xlsx", firstrow(variables) replace
