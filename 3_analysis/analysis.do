@@ -292,3 +292,15 @@ estimates store OP7_three_category
 
 
 
+** Creating index for political involvement
+* Political involvement count:
+* number of activities in which the respondent participated
+egen byte political_involvement = ///
+    anycount(q2_8_1-q2_8_6), values(1)
+
+label variable political_involvement ///
+    "Political involvement count: number of activities, 0-6"
+
+tabulate political_involvement
+summarize political_involvement, detail
+
