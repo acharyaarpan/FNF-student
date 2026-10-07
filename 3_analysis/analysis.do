@@ -245,6 +245,10 @@ assert inlist(family_abroad_bin, 0, 1) if !missing(family_abroad_bin)
 
 count if analysis_sample
 
+/*Prakash has created this to make it easy for analysis. this is used in prakash in 3_analysis */
+
+save "$analysis/data_prakash.dta", replace
+
 
 *------------------------------------------------------------------------------*
 **# Ordered-probit estimation
@@ -287,6 +291,7 @@ oprobit politics3 ///
 estimates store OP7_three_category
 
 
+
 ** Creating index for political involvement
 * Political involvement count:
 * number of activities in which the respondent participated
@@ -298,3 +303,4 @@ label variable political_involvement ///
 
 tabulate political_involvement
 summarize political_involvement, detail
+
